@@ -1,4 +1,5 @@
 import React from "react";
+import "./Restaurant.css";
 
 const MenuCard = ({menuData}) => {
     console.log(menuData);
@@ -8,19 +9,41 @@ const MenuCard = ({menuData}) => {
         {menuData.map((currElem) => {
             return(
             <>
-            <div className="card-container">
+            <div className="card-container" key={currElem.id}>
                 <div className="card">
                     <div className="card-body">
-                        <span className="card-number card-circle subtle">1</span>
-                        <span className="card-author subtle">Breakfast</span>
-                        <h2 className="card-title">Sevenin</h2>
-                        <span className="card-description subtle">
-                        Pizza,Chines.
-                        </span>
-                        <div className="card-read">Read</div>
+                        <span className="card-number card-circle subtle">{currElem.rating}</span>
+                        <span className="card-author subtle">{currElem.votes} votes</span>
+                        <span className="card-review subtle">{currElem.reviews} reviews</span>
+
                     </div>
-                    {/* <img src={image} alt="images" className="card-media"    /> */}
+
+                   
+                    <h2 className="card-title">{currElem.restro}</h2>
+                    <span className="card-description subtle">{currElem.categ}</span>
+                    <div>
+                        <span className="card-description subtle">Cost For One :{currElem.Cost_For_One}</span>
+                    </div>
+                    <div>
+                        <span className="card-description subtlemain">Min ₹:{currElem.min_Order}  </span>
+                        <span className="card-description subtlemain"> *Up to :{currElem.del_Time} min</span>
+                    </div>
+                    <div>
+                        <p>Accepts{" "}
+                        {currElem.payment_methods.cash
+                            ? "online and cash on delivery both"
+                            : "online payments only"
+                      }
+                    </p>
+                    </div>
+                   
+                   
+                    <div>
+                            <img src={currElem.url} alt="images" className="card-media"    /> 
+                    </div>
+                    <div>
                     <span className="card-tag subtle ">Order Now</span>
+                    </div>
                 </div>
             </div>
            
