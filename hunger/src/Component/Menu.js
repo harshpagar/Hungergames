@@ -1,5 +1,5 @@
-{
-    "restaurants": [
+
+    const Menu= [
         {
             "id":1,
             "restro":"SukhSagar",
@@ -342,4 +342,4 @@
         }
 
     ]
-}
+export default Menu
