@@ -10,28 +10,20 @@
             "min_Order":80, 
             "del_Time":30,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3JMn8Rtfk8Bx44z_blnCItFTMkBOBkGryQ&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card",
             "categ":["Pizza,South Indian, Asian"]
         },
         {
             "id":2,
             "restro":"Nivant",
             "Cost_For_One":560,
-            "rating":4.2,
+            "rating":2.2,
             "votes":650,
             "reviews":450,
             "min_Order":50,
             "del_Time":20,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQn0LFP53Ufzfm0fooA-hxt9box98OhuPOA&usqp=CAU",
-            "payment_methods":{
-                "card": false,
-                "cash": true,
-                "upi": false
-            },
+            "payment_methods":"Cash",
             "categ":["Fish curry,South Indian, Pizza"]
         },
         {
@@ -44,28 +36,20 @@
             "min_Order":180,
             "del_Time":10,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_vSaH83XnYi41wSsFOpHKVcYvsu8ZPJ7Sw&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": true
-            },
+            "payment_methods":"Card & Cash Both",
             "categ":["Pakora,Korma, Asian"]
         },
         {
             "id":4,
             "restro":"Patil Restaurant",
             "Cost_For_One":240,
-            "rating":4.8,
+            "rating":2.5,
             "votes":690,
             "reviews":500,
             "min_Order":50,
             "del_Time":20,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHxpU2ZbovkLf37SqbtpNg1vlk_C_8hBf8YA&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Cash",
             "categ":["Kebab,Fennel, Asian"]
         },
         {
@@ -78,28 +62,20 @@
             "min_Order":30,
             "del_Time":25,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMZbKQGGXAUpxxlpPr_p2_ojmXtTO6-_5hQ&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": false
-            },
+            "payment_methods":"Card",
             "categ":["Raita,Idli, Samosa"]
         },
         {
             "id":6,
             "restro":"Madina",
             "Cost_For_One":700,
-            "rating":4.5,
+            "rating":1.5,
             "votes":780,
             "reviews":650,
             "min_Order":90,
             "del_Time":40,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjZVjyO_wBYj_XWzpPi2U8VLc0H38-1jIYKg&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": true
-            },
+            "payment_methods":"Cash",
             "categ":["Fish Curry,Tikka"]
         },
         {
@@ -112,11 +88,7 @@
             "min_Order":10,
             "del_Time":90,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwm-IkXBJ0dbih8R7Cx6GJb3qfjUUlK_yCrg&usqp=CAU",
-            "payment_methods":{
-                "card": false,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card & Cash Both",
             "categ":["Dhokla,Panipuri, Asian"]
         },
         {
@@ -129,11 +101,7 @@
             "min_Order":580,
             "del_Time":35,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEHVlvolIAdrgCV712sFszi-N78y59Hvpqhg&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card",
             "categ":["Burger,Coffe, Cold Coffe"]
         },
         {
@@ -146,11 +114,7 @@
             "min_Order":25,
             "del_Time":60,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd5_8GmB3GfrvHqDadov4yNWjBt5ijjotfdQ&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": true
-            },
+            "payment_methods":"Cash",
             "categ":["Pizza,French fryies, Asian"]
         },
         {
@@ -163,11 +127,7 @@
             "min_Order":60,
             "del_Time":100,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1L7aZRDB63eKdE3JLFdHXGFEK0tTEe14-zw&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": false
-            },
+            "payment_methods":"Card & Cash Both",
             "categ":["Panner,Kaju Masala,DalKhichada"]
         },
         {
@@ -180,11 +140,7 @@
             "min_Order":5,
             "del_Time":90,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB4LbAkYWFwsuOiLkD98XLXXlLU6zdKUzcHA&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": true
-            },
+            "payment_methods":"Card",
             "categ":["Panner,Kaju Masala,DalKhichada"]
         },
         {
@@ -197,11 +153,7 @@
             "min_Order":15,
             "del_Time":80,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpS7xRBWb5w77h0kqVtC4WvxU8BPafXdrOIw&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card",
             "categ":["Pizza,French fryies, Asian"]
         },
         {
@@ -214,28 +166,20 @@
             "min_Order":90,
             "del_Time":20,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIumvmW1Y10Kdd7ve9iuWkMhAjav6PtgyTTA&usqp=CAU",
-            "payment_methods":{
-                "card": false,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Cash",
             "categ":["Burger,Coffe, Cold Coffe"]
         },
         {
             "id":14,
             "restro":"Irani",
             "Cost_For_One":470,
-            "rating":3.9,
+            "rating":1.9,
             "votes":986,
             "reviews":589,
             "min_Order":30,
             "del_Time":50,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy3etL14ASAl43hMeYbPirHhvgEsvFQPnVwQ&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": true
-            },
+            "payment_methods":"Card & Cash Both",
             "categ":["Dhokla,Panipuri, Asian"]
 
         },
@@ -249,11 +193,7 @@
             "min_Order":60,
             "del_Time":20,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3JMn8Rtfk8Bx44z_blnCItFTMkBOBkGryQ&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card & Cash Both",
             "categ":["Fish Curry,Tikka"]        },
         {
             "id":16,
@@ -265,11 +205,7 @@
             "min_Order":6,
             "del_Time":50,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBG1Im6N4RT5xe7jdPXO5U1PaWgSWwnfLJXA&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card",
             "categ":["Raita,Idli, Samosa"]
         },
         {
@@ -282,11 +218,7 @@
             "min_Order":60,
             "del_Time":20,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMK6MxEsf78SMoWQo1en7UH3d9MpG8ex7EJw&usqp=CAU",
-            "payment_methods":{
-                "card": false,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Cash",
             "categ":["Kebab,Fennel, Asian"]
         },
         {
@@ -299,11 +231,7 @@
             "min_Order":70,
             "del_Time":40,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDYq6DLOZ5n7Ir1okhdAh8VLKp7jojbLiH_g&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Card & Cash Both",
             "categ":["Pakora,Korma, Asian"]
         },
         {
@@ -316,11 +244,7 @@
             "min_Order":50,
             "del_Time":60,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQONfGrZlsZjV_Ik_svKe9sSYYGSQIwN0g8w&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": false,
-                "upi": true
-            },
+            "payment_methods":"Card",
             "categ":["Fish curry,South Indian, Pizza"]
         },
         {
@@ -333,11 +257,7 @@
             "min_Order":10,
             "del_Time":40,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpufZu1dLkbLg4CD51y0kHwgG0CfTcScNWdg&usqp=CAU",
-            "payment_methods":{
-                "card": true,
-                "cash": true,
-                "upi": true
-            },
+            "payment_methods":"Cash",
             "categ":["Pizza,South Indian, Asian"]
         }
 

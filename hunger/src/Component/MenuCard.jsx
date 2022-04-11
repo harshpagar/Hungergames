@@ -1,12 +1,12 @@
 import React from "react";
 import "./Restaurant.css";
 
-const MenuCard = ({menuData}) => {
-    console.log(menuData);
+const MenuCard = ({filterData}) => {
+    console.log(filterData);
     return(
         <>
         <section className="main-card--container">
-        {menuData.map((currElem) => {
+        {filterData.map((currElem) => {
             return(
             <>
             <div className="card-container" key={currElem.id}>
@@ -29,12 +29,8 @@ const MenuCard = ({menuData}) => {
                         <span className="card-description subtlemain"> *Up to :{currElem.del_Time} min</span>
                     </div>
                     <div>
-                        <p>Accepts{" "}
-                        {currElem.payment_methods.cash
-                            ? "online and cash on delivery both"
-                            : "online payments only"
-                      }
-                    </p>
+                    <span className="card-description subtlemain">Accepts {currElem.payment_methods} Only </span>
+                   
                     </div>
                    
                    
